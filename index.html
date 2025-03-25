@@ -1,102 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Portfoliooo</title>
 <style>
-/* Background Image */
+/* Body Styling */
 body {
     font-family: Georgia, serif;
     margin: 0;
     padding: 0;
-    background: url('https://raw.githubusercontent.com/username/repository/branch/forest-image.jpg') no-repeat center center/cover; 
-    color: #fff;
+    background-color: #0C0F14; /* Deep Midnight Black */
+    color: #F0E68C; /* Khaki text */
 }
 
 /* Header Styling */
 header {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-    color: #fff;
+    background-color: #B36BFF; /* Lighter Neon Purple */
+    color: #0C0F14; /* Dark contrast text */
     text-align: center;
     padding: 2rem 0;
     position: relative;
 }
+.header-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
 
-/* Profile Picture */
+/* Profile Picture Styling */
 .profile-picture {
-    width: 120px;
-    height: 120px;
+    width: 25px;
+    height: 10px;
     border-radius: 50%;
     object-fit: cover;
     position: absolute;
-    top: 50px;
-    left: 50px;
-    border: 4px solid #fff;
+    top: 40px;
+    left: 30px;
+    border: 4px solid #B36BFF; /* Lighter Neon Purple border */
 }
 
-/* Navigation */
+/* Navigation Styling */
 nav {
-    background: rgba(51, 51, 51, 0.6); /* Transparent nav */
-    color: #fff;
+    background-color: #B36BFF; /* Lighter Neon Purple */
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
 }
-
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 25px;
 }
-
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #0C0F14; /* Black text for contrast */
     font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #FFD700; /* Gold hover effect */
 }
 
-/* Sections with Transparent Background */
+/* Section Styling */
 .section-content {
-    background: rgba(0, 0, 0, 0.6); /* Transparent dark background */
-    padding: 2rem;
-    margin: 1rem;
+    background-color: #1A1F29; /* Charcoal Gray */
+    color: #F0E68C; /* Khaki text */
+    padding: 2.5rem;
+    margin: 1.5rem;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    text-align: justify;
-    color: #f0f0f0;
+    box-shadow: 0 0 15px rgba(179, 107, 255, 0.8); /* Lighter Neon Purple glow */
+    transition: transform 0.3s;
+}
+.section-content:hover {
+    transform: scale(1.02);
 }
 
-/* Download Button */
+/* Button Styling */
 .download-button {
-    background: rgba(51, 51, 51, 0.8);
-    color: #fff;
+    background-color: #B36BFF; /* Lighter Neon Purple */
+    color: #0C0F14; /* Dark text */
     padding: 0.7rem 1.5rem;
     text-decoration: none;
     border-radius: 25px;
+    font-weight: bold;
     display: inline-block;
-    margin-top: 10px;
-    transition: 0.3s;
+    margin-top: 15px;
+    transition: background 0.3s, box-shadow 0.3s;
 }
-
 .download-button:hover {
-    background: #555;
-    color: #fff;
+    background-color: #FFD700; /* Gold hover effect */
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
 }
 
-/* Footer */
+/* Footer Styling */
 footer {
     text-align: center;
-    padding: 1rem 0;
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    padding: 1.5rem 0;
+    background-color: #B36BFF; /* Lighter Neon Purple */
+    color: #0C0F14; /* Dark contrast text */
 }
-
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: square;
+    padding-left: 25px;
 }
 </style>
 </head>
@@ -104,15 +109,90 @@ ul {
 
 <header>
 <div class="header-content">
-    <img src="https://drive.google.com/uc?id=1WohnqJrbNAXnpirryWGC5hnrxLKpm6gU" alt="Your Profile Picture" class="profile-picture">
-    <h1>KIRTHIC V</h1>
-    <p>STUDENT</p>
+<img src="https://drive.google.com/file/d/1WohnqJrbNAXnpirryWGC5hnrxLKpm6gU/view?usp=drivesdk.jpg" alt="Your Profile Picture" class="profile-picture">
+<h1>KIRTHIC V</h1>
+<p>STUDENT</p>
 </div>
 </header>
 
 <nav>
 <ul>
-    <li><a href="#objective">OBJECTIVE</a></li>
-    <li><a href="#education">EDUCATION</a></li>
-    <li><a href="#skills">SKILLS</a></li>
-    <li><a href="#projects">PROJECTS</a
+<li><a href="#objective">OBJECTIVE</a></li>
+<li><a href="#education">EDUCATION</a></li>
+<li><a href="#skills">SKILLS</a></li>
+<li><a href="#projects">PROJECTS</a></li>
+<li><a href="#resume">RESUME</a></li>
+</ul>
+</nav>
+
+<section id="objective">
+<div class="section-content">
+<h2>OBJECTIVE</h2>
+<p>Enthusiastic and detail-oriented Computer Science student with a strong foundation in programming and problem-solving. Seeking opportunities to apply technical skills and gain hands-on experience in software development and related fields.</p>
+</div>
+</section>
+
+<section id="education">
+<div class="section-content">
+<h2>EDUCATION</h2>
+<p1>BSc. COMPUTER SCIENCE</p1>
+<br>Bishop appasamy college of arts and science</br>
+<br>Coimbatore, Tamil Nadu. </br>
+</div>
+</section>
+
+<section id="skills">
+<div class="section-content">
+<h2>SKILLS</h2>
+<ul>
+<li>Java</li>
+<li>Python</li>
+<li>Web Design</li>
+<li>Excel Sheet</li>
+</ul>
+</div>
+</section>
+
+<section id="projects">
+<div class="section-content">
+<h2>Projects</h2>
+<ul>
+<li><a href="#">Participated in a computer skills workshop, enhancing proficiency in programming, problem-solving, and technical applications.
+
+</a></li>
+</ul>
+</div>
+</section>
+
+<section id="resume">
+<div class="section-content">
+<center>
+<h2>Resume</h2>
+<a href="https://drive.google.com/file/d/1XMz4rvA0yMLg4gVJ4cUZSSlIxW1a9bv-/view?usp=drivesdk.pdf" target="_blank" class="download-button">Download CV</a>
+</center>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2025 Kirthic V</p>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+</script>
+
+</body>
+</html>
+
