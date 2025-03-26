@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio</title>
+<title>Portfoliooo</title>
 
 <!-- Importing Historica Font -->
 <link href="https://fonts.googleapis.com/css2?family=Histora&display=swap" rel="stylesheet">
@@ -11,21 +11,21 @@
 <style>
 /* Body Styling */
 body {
-    font-family: 'Histora', serif; /* Historica Font Applied */
+    font-family: 'Histora', serif; /* Historica Font */
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1E1A2E, #3B2E5A); /* Deep Plum & Dark Lavender */
-    color: #EDE7F6; /* Soft Lavender Text */
+    background: linear-gradient(135deg, #EAE2F8, #D1C4E9); /* Light Lavender Gradient */
+    color: #1E1A2E; /* Dark Text for Contrast */
 }
 
 /* Header Styling */
 header {
-    background: linear-gradient(135deg, #2C1A47, #4C2E7A); /* Dark Purple Gradient */
+    background: linear-gradient(135deg, #4C2E7A, #7E57C2); /* Dark to Medium Purple Gradient */
     color: #F3E5F5; /* Light Lavender Text */
     text-align: center;
     padding: 3rem 0;
     position: relative;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
 }
 .header-content h1 {
     font-size: 4rem;
@@ -34,7 +34,7 @@ header {
     text-transform: uppercase;
 }
 
-/* Profile Picture Styling */
+/* Profile Picture Styling with Neon Border */
 .profile-picture {
     width: 90px;
     height: 80px;
@@ -42,18 +42,19 @@ header {
     object-fit: cover;
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 140px;
     border: 5px solid #7E57C2; /* Lavender Border */
+    box-shadow: 0 0 15px #4C2E7A; /* Neon Dark Purple Glow */
     transition: 0.4s;
 }
 .profile-picture:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 25px #B39DDB; /* Soft Purple Glow */
+    box-shadow: 0 0 30px #7E57C2; /* Brighter Purple Glow */
 }
 
 /* Navigation Styling */
 nav {
-    background: #4C2E7A; /* Rich Dark Purple */
+    background: #7E57C2; /* Medium Purple */
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
@@ -76,44 +77,47 @@ nav ul li a:hover {
     color: #B39DDB; /* Soft Purple */
 }
 
-/* Section Styling */
+/* Section Styling with Neon Border */
 .section-content {
-    background: #3B2E5A; /* Dark Lavender */
-    color: #EDE7F6; /* Soft Lavender */
+    background: #E6E0F8; /* Light Purple Section Background */
+    color: #1E1A2E; /* Dark Text */
     padding: 3rem;
     margin: 2rem;
     border-radius: 15px;
-    box-shadow: 0 0 25px rgba(179, 157, 219, 0.3); /* Subtle Purple Glow */
+    border: 3px solid #4C2E7A; /* Neon Dark Purple Border */
+    box-shadow: 0 0 25px #4C2E7A; /* Neon Glow Effect */
     transition: transform 0.3s, box-shadow 0.3s;
 }
 .section-content:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 30px rgba(179, 157, 219, 0.7); /* Stronger Glow */
+    box-shadow: 0 0 35px #7E57C2; /* Stronger Glow */
 }
 
-/* Button Styling */
+/* Button Styling with Neon Border */
 .download-button {
-    background: #7E57C2; /* Lavender */
-    color: #1E1A2E; /* Dark Background Text */
+    background: #7E57C2; /* Medium Lavender */
+    color: #1E1A2E; /* Dark Text */
     padding: 0.8rem 2rem;
     text-decoration: none;
     border-radius: 30px;
+    border: 3px solid #4C2E7A; /* Neon Dark Purple Border */
     font-weight: 700;
     letter-spacing: 1px;
     display: inline-block;
     margin-top: 20px;
     transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 20px #4C2E7A; /* Neon Glow */
 }
 .download-button:hover {
     background: #B39DDB; /* Light Purple */
-    box-shadow: 0 0 25px rgba(179, 157, 219, 0.9);
+    box-shadow: 0 0 35px #7E57C2; /* Brighter Glow */
 }
 
 /* Footer Styling */
 footer {
     text-align: center;
     padding: 2rem 0;
-    background: #2C1A47; /* Dark Plum */
+    background: #7E57C2; /* Medium Purple */
     color: #F3E5F5; /* Light Lavender */
     font-size: 1rem;
     letter-spacing: 1px;
@@ -128,9 +132,9 @@ ul {
 
 <header>
 <div class="header-content">
-<img src="https://drive.google.com/file/d/1WohnqJrbNAXnpirryWGC5hnrxLKpm6gU/view?usp=drivesdk.jpg" alt="Your Profile Picture" class="profile-picture">
+<img src="https://drive.google.com/uc?id=1WohnqJrbNAXnpirryWGC5hnrxLKpm6gU" alt="Your Profile Picture" class="profile-picture">
 <h1>KIRTHIC V</h1>
-<p>COMPUTER SCIENCE | STUDENT</p>
+<p>BSC COMPUTER SCIENCE | STUDENT</p>
 </div>
 </header>
 
@@ -212,6 +216,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 </body>
 </html>
-
-
 
